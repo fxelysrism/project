@@ -59,10 +59,10 @@ const Hero = () => {
         <div className="hero-text">
           <h1 className="hero-title">
             HOME OF<br />
-            THE <span className="highlight">SORIN</span>.
+            THE <span className="highlight">REBELS</span>.
           </h1>
           <p className="hero-description">
-            Everything SORIN - SORIN is a premiere esports organization, breeding the 
+            Everything REBELS - REBELS is a premiere esports organization, breeding the 
             next-generation of esports professionals in gaming, content-creation and more!
           </p>
           <div className="social-buttons">
@@ -141,10 +141,10 @@ const StreamCarousel = () => {
           <div className="stream-info-panel">
             <div className="panel-header">
               <span className="live-indicator">LIVE ENTERTAINMENT</span>
-              <h2>SORIN TV</h2>
+              <h2>REBELS TV</h2>
             </div>
             <p>
-              Here are some of SORIN's live streams! Use the arrows to browse through 
+              Here are some of REBELS' live streams! Use the arrows to browse through 
               and discover our talented roster in action. Experience the best of competitive 
               gaming and content creation.
             </p>
@@ -176,7 +176,7 @@ const AboutSection = () => {
           <div className="about-description">
             <div className="description-content">
               <p>
-                SORIN is more than just an esports organization – we're a community of 
+                REBELS is more than just an esports organization – we're a community of 
                 passionate gamers, content creators, and innovators pushing the boundaries 
                 of competitive gaming.
               </p>
@@ -202,14 +202,14 @@ const NewsSection = () => {
     {
       id: 1,
       date: "JUL 19, 2025",
-      title: "OFFICIAL SORIN ANNOUNCEMENT",
+      title: "OFFICIAL REBELS ANNOUNCEMENT",
       description: "Our team secured first place in the highly competitive Winter Championship, showcasing incredible teamwork and skill against top-tier competition.",
       image: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg"
     },
     {
       id: 2,
       date: "JUL 20, 2025",
-      title: "Sorin Vert Qualifies for Grand Finals — and Secures a Win!",
+      title: "Rebels Vert Qualifies for Grand Finals — and Secures a Win!",
       description: "We're proud to announce that we've qualified for Grand Finals once again!",
       image: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg"
     },
@@ -217,7 +217,7 @@ const NewsSection = () => {
       id: 3,
       date: "DEC 5, 2024",
       title: "Major Partnership with LanForge!",
-      description: "SORIN partners with industry-leading gaming hardware company.",
+      description: "REBELS partners with industry-leading gaming hardware company.",
       image: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg"
     }
   ];
@@ -231,7 +231,7 @@ const NewsSection = () => {
           </h2>
           <p className="section-description">
             Stay updated with the latest announcements, tournament results, and team 
-            updates from SORIN Esports.
+            updates from REBELS Esports.
           </p>
         </div>
         <div className="news-grid">
@@ -263,42 +263,42 @@ const VideosSection = () => {
     {
       id: 1,
       title: "Ark Wins FNCS Grand Finals",
-      author: "SORIN ARK",
+      author: "REBELS ARK",
       thumbnail: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
       duration: "15:32"
     },
     {
       id: 2,
       title: "Josh Dominates Eval Cup with a 1st Place Finish",
-      author: "SORIN JOSH",
+      author: "REBELS JOSH",
       thumbnail: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg",
       duration: "12:45"
     },
     {
       id: 3,
       title: "Curve Dominates FNCS Showdown",
-      author: "SORIN CURVE",
+      author: "REBELS CURVE",
       thumbnail: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg",
       duration: "12:18"
     },
     {
       id: 4,
       title: "Championship Victory Highlights",
-      author: "SORIN ARK",
+      author: "REBELS ARK",
       thumbnail: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
       duration: "18:22"
     },
     {
       id: 5,
       title: "Tournament Analysis & Strategy",
-      author: "SORIN JOSH",
+      author: "REBELS JOSH",
       thumbnail: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg",
       duration: "25:15"
     },
     {
       id: 6,
       title: "Pro Player Training Session",
-      author: "SORIN CURVE",
+      author: "REBELS CURVE",
       thumbnail: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg",
       duration: "32:08"
     }
