@@ -68,12 +68,8 @@ const HeroSection = () => {
   return (
     <section id="home" className="hero-section">
       <AnimatedBackground />
-      <div className="hero-container">
-        <div className="hero-content">
-          <div className="hero-badge">
-            <Flame size={16} />
-            <span>CHAMPIONSHIP WINNERS 2024</span>
-          </div>
+      <div className="container">
+        <div className="hero-content-centered">
           <h1 className="hero-title">
             RISE WITH THE
             <span className="title-highlight">REBELS</span>
@@ -114,21 +110,6 @@ const HeroSection = () => {
               MEET THE TEAM
               <ArrowRight size={18} />
             </button>
-          </div>
-        </div>
-        <div className="hero-visual">
-          <div className="floating-card">
-            <div className="card-header">
-              <div className="live-indicator">
-                <div className="pulse-dot"></div>
-                LIVE NOW
-              </div>
-            </div>
-            <img src="https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg" alt="Live Stream" />
-            <div className="card-overlay">
-              <h3>REBELS Championship Final</h3>
-              <p>15.2K viewers</p>
-            </div>
           </div>
         </div>
       </div>
