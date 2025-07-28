@@ -175,7 +175,7 @@ const TeamSection = () => {
             <div key={index} className="player-card">
               <div className="player-image">
                 <div className="team-logo-display">
-                  <Crown size={48} />
+                  <img src="/image.png" alt="REBELS Logo" width={48} height={48} />
                 </div>
                 <div className="player-overlay">
                   <div className="win-rate">
@@ -518,7 +518,7 @@ const Footer = () => {
           <div className="footer-brand">
             <div className="logo-container">
               <div className="logo-hexagon">
-                <Crown size={24} />
+                <img src="/image.png" alt="Logo" width={24} height={24} />
               </div>
               <div className="brand-text">
                 <span className="brand-name">REBELS</span>
