@@ -123,7 +123,6 @@ const TeamSection = () => {
       name: "REBELS Phoenix",
       role: "Team Captain",
       game: "Fortnite",
-      image: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
       achievements: ["World Champion 2024", "MVP Finals"],
       winRate: "94%"
     },
@@ -131,7 +130,6 @@ const TeamSection = () => {
       name: "REBELS Storm",
       role: "Assault Specialist",
       game: "Valorant",
-      image: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg",
       achievements: ["Regional Champion", "Ace Master"],
       winRate: "89%"
     },
@@ -139,7 +137,6 @@ const TeamSection = () => {
       name: "REBELS Viper",
       role: "Strategic Leader",
       game: "CS2",
-      image: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg",
       achievements: ["Major Winner", "IGL of the Year"],
       winRate: "91%"
     },
@@ -147,7 +144,6 @@ const TeamSection = () => {
       name: "REBELS Blaze",
       role: "Content Creator",
       game: "Multi-Game",
-      image: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
       achievements: ["1M+ Followers", "Creator Award"],
       winRate: "87%"
     }
@@ -173,7 +169,9 @@ const TeamSection = () => {
           {players.map((player, index) => (
             <div key={index} className="player-card">
               <div className="player-image">
-                <img src={player.image} alt={player.name} />
+                <div className="team-logo-display">
+                  <Crown size={48} />
+                </div>
                 <div className="player-overlay">
                   <div className="win-rate">
                     <span>{player.winRate}</span>
