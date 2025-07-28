@@ -22,6 +22,8 @@ const AnimatedBackground = () => {
   );
 };
 
+import { useState, useEffect } from 'react';
+
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,7 +42,7 @@ const Header = () => {
         <div className="logo-brand">
           <div className="logo-container">
             <div className="logo-hexagon">
-              <Crown size={24} />
+              <img src="/image.png" alt="Logo" width={24} height={24} />
             </div>
             <div className="brand-text">
               <span className="brand-name">REBELS</span>
@@ -63,6 +65,9 @@ const Header = () => {
     </header>
   );
 };
+
+export default Header;
+
 
 const HeroSection = () => {
   return (
