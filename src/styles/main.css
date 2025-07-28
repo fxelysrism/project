@@ -262,6 +262,8 @@ body {
   color: #cccccc;
   margin-bottom: 40px;
   max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-stats {
