@@ -22,8 +22,6 @@ const AnimatedBackground = () => {
   );
 };
 
-import { useState, useEffect } from 'react';
-
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -65,8 +63,6 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
 
 
 const HeroSection = () => {
