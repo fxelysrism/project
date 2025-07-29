@@ -40,7 +40,7 @@ const Header = () => {
         <div className="logo-brand">
           <div className="logo-container">
             <div className="logo-hexagon">
-              <img src="/image.png" alt="Logo" width={24} height={24} />
+              <img src="/image.png" alt="REBELS Logo" width={32} height={32} />
             </div>
             <div className="brand-text">
               <span className="brand-name">REBELS</span>
