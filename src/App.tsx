@@ -305,7 +305,7 @@ const ContentSection = () => {
       streamer: "REBELS Phoenix",
       viewers: "12.4K",
       game: "Fortnite",
-      thumbnail: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
+      thumbnail: "/image.png",
       live: true
     },
     {
@@ -313,7 +313,7 @@ const ContentSection = () => {
       streamer: "REBELS Storm",
       viewers: "8.7K",
       game: "Valorant",
-      thumbnail: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg",
+      thumbnail: "/image.png",
       live: true
     }
   ];
@@ -323,19 +323,19 @@ const ContentSection = () => {
       title: "How We Won the World Championship",
       duration: "24:15",
       views: "2.1M",
-      thumbnail: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg"
+      thumbnail: "/image.png"
     },
     {
       title: "Phoenix's Insane 30-Kill Game",
       duration: "18:42",
       views: "1.8M",
-      thumbnail: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg"
+      thumbnail: "/image.png"
     },
     {
       title: "Behind the Scenes: Training Camp",
       duration: "32:08",
       views: "956K",
-      thumbnail: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg"
+      thumbnail: "/image.png"
     }
   ];
 
@@ -432,7 +432,7 @@ const NewsSection = () => {
       excerpt: "Our team dominated the finals with a flawless performance, securing our third world title.",
       date: "Dec 1, 2024",
       category: "Tournament",
-      image: "https://images.pexels.com/photos/7862428/pexels-photo-7862428.jpeg",
+      image: "/image.png",
       featured: true
     },
     {
@@ -440,14 +440,14 @@ const NewsSection = () => {
       excerpt: "State-of-the-art gaming facility with cutting-edge technology for our players.",
       date: "Nov 28, 2024",
       category: "Facility",
-      image: "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg"
+      image: "/image.png"
     },
     {
       title: "Phoenix Breaks Kill Record",
       excerpt: "Team captain sets new world record with 35 eliminations in championship match.",
       date: "Nov 25, 2024",
       category: "Achievement",
-      image: "https://images.pexels.com/photos/7862492/pexels-photo-7862492.jpeg"
+      image: "/image.png"
     }
   ];
 
