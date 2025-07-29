@@ -514,7 +514,7 @@ const Footer = () => {
           <div className="footer-brand">
             <div className="logo-container">
               <div className="logo-hexagon">
-                <img src="/image.png" alt="Logo" width={24} height={24} />
+                <img src="/image.png" alt="Logo" width={32} height={32} />
               </div>
               <div className="brand-text">
                 <span className="brand-name">REBELS</span>
