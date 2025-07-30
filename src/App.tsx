@@ -125,9 +125,8 @@ const HeroSection = () => {
 const TeamSection = () => {
   const players = [
     {
-      name: "REBELS Phoenix",
-      role: "Team Captain",
-      game: "Fortnite",
+      name: "REBELS Krayzo",
+      role: "Founded & CEO",
       achievements: ["World Champion 2024", "MVP Finals"],
       winRate: "94%"
     },
