@@ -527,7 +527,7 @@ const Footer = () => {
             </div>
             <p>Elite esports organization pushing the boundaries of competitive gaming.</p>
             <div className="social-links">
-              <a href="https://x.com/RebelsESP/status/1949922811276939273" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://x.com/RebelsESP" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Twitter size={20} />
               </a>
               <a href="https://www.youtube.com/@Rebels2025" target="_blank" rel="noopener noreferrer" className="social-link">
