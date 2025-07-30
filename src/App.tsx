@@ -108,7 +108,9 @@ const HeroSection = () => {
               WATCH HIGHLIGHTS
             </button>
             <button className="secondary-btn">
-              MEET THE TEAM
+              <a href="#team" style={{ color: 'inherit', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                MEET THE TEAM
+              </a>
               <ArrowRight size={18} />
             </button>
           </div>
