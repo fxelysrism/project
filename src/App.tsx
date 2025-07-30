@@ -527,13 +527,13 @@ const Footer = () => {
             </div>
             <p>Elite esports organization pushing the boundaries of competitive gaming.</p>
             <div className="social-links">
-              <a href="#" className="social-link">
+              <a href="https://x.com/RebelsESP/status/1949922811276939273" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="social-link">
+              <a href="https://www.youtube.com/@Rebels2025" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Youtube size={20} />
               </a>
-              <a href="#" className="social-link">
+              <a href="https://discord.gg/rebelsesp" target="_blank" rel="noopener noreferrer" className="social-link">
                 <MessageCircle size={20} />
               </a>
             </div>
