@@ -105,7 +105,9 @@ const HeroSection = () => {
           <div className="hero-actions">
             <button className="primary-btn">
               <Play size={18} />
-              WATCH HIGHLIGHTS
+             <a href="#contact" style={{ color: 'inherit', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+               OUR SOCIALS
+             </a>
             </button>
             <button className="secondary-btn">
               <a href="#team" style={{ color: 'inherit', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
