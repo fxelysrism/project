@@ -127,15 +127,14 @@ const TeamSection = () => {
     {
       name: "REBELS Krayzo",
       role: "Founded & CEO",
-      achievements: ["World Champion 2024", "MVP Finals"],
-      winRate: "94%"
+      achievements: ["Member Since 2025", ""],
+      winRate: "100%"
     },
     {
       name: "REBELS Storm",
       role: "Assault Specialist",
       game: "Valorant",
       achievements: ["Regional Champion", "Ace Master"],
-      winRate: "89%"
     },
     {
       name: "REBELS Viper",
