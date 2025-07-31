@@ -72,8 +72,8 @@ const HeroSection = () => {
       <div className="container">
         <div className="hero-content-centered">
           <h1 className="hero-title">
-            RISE WITH THE
-            <span className="title-highlight">REBELS</span>
+            <span className="glitch" data-text="RISE WITH THE">RISE WITH THE</span>
+            <span className="title-highlight glitch" data-text="REBELS">REBELS</span>
           </h1>
           <p className="hero-subtitle">
             Elite esports organization dominating competitive gaming across multiple titles. 
