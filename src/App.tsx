@@ -127,27 +127,20 @@ const TeamSection = () => {
     {
       name: "REBELS Krayzo",
       role: "Founded & CEO",
-      achievements: ["Member Since 2025", ""],
       winRate: "100%"
     },
     {
       name: "REBELS Storm",
       role: "Assault Specialist",
-      game: "Valorant",
-      achievements: ["Regional Champion", "Ace Master"],
     },
     {
       name: "REBELS Viper",
       role: "Strategic Leader",
-      game: "CS2",
-      achievements: ["Major Winner", "IGL of the Year"],
       winRate: "91%"
     },
     {
       name: "REBELS Blaze",
       role: "Content Creator",
-      game: "Multi-Game",
-      achievements: ["1M+ Followers", "Creator Award"],
       winRate: "87%"
     }
   ];
@@ -186,18 +179,6 @@ const TeamSection = () => {
                 <div className="player-header">
                   <h3>{player.name}</h3>
                   <span className="player-role">{player.role}</span>
-                </div>
-                <div className="player-game">
-                  <Gamepad2 size={14} />
-                  {player.game}
-                </div>
-                <div className="player-achievements">
-                  {player.achievements.map((achievement, i) => (
-                    <span key={i} className="achievement-tag">
-                      <Star size={12} />
-                      {achievement}
-                    </span>
-                  ))}
                 </div>
               </div>
             </div>
