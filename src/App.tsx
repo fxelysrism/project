@@ -404,25 +404,25 @@ const ContentSection = () => {
 const NewsSection = () => {
   const news = [
     {
-      title: "REBELS Wins World Championship 2024",
-      excerpt: "Our team dominated the finals with a flawless performance, securing our third world title.",
-      date: "Dec 1, 2024",
-      category: "Tournament",
+      title: "Coming Soon",
+      excerpt: "Coming Soon",
+      date: "Coming Soon",
+      category: "Coming Soon",
       image: "/image.png",
       featured: true
     },
     {
-      title: "New Training Facility Opens",
-      excerpt: "State-of-the-art gaming facility with cutting-edge technology for our players.",
-      date: "Nov 28, 2024",
+      title: "Coming Soon",
+      excerpt: "Coming Soon",
+      date: "Coming Soon",
       category: "Facility",
       image: "/image.png"
     },
     {
-      title: "Phoenix Breaks Kill Record",
-      excerpt: "Team captain sets new world record with 35 eliminations in championship match.",
-      date: "Nov 25, 2024",
-      category: "Achievement",
+      title: "Coming Soon",
+      excerpt: "Coming Soon",
+      date: "Coming Soon",
+      category: "Coming Soon",
       image: "/image.png"
     }
   ];
