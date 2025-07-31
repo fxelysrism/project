@@ -135,9 +135,9 @@ const TeamSection = () => {
       pfp: "https://i.ibb.co/21Gt6v25/image.png"
     },
     {
-      name: "REBELS Viper",
-      role: "Strategic Leader",
-      pfp: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+      name: "REBELS Zeref",
+      role: "Founder",
+      pfp: "https://i.ibb.co/XRBXxF8/image.png"
     },
     {
       name: "REBELS Blaze",
