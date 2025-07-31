@@ -127,21 +127,22 @@ const TeamSection = () => {
     {
       name: "REBELS Krayzo",
       role: "Founded & CEO",
-      winRate: "100%"
+      pfp: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       name: "REBELS Storm",
       role: "Assault Specialist",
+      pfp: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       name: "REBELS Viper",
       role: "Strategic Leader",
-      winRate: "91%"
+      pfp: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       name: "REBELS Blaze",
       role: "Content Creator",
-      winRate: "87%"
+      pfp: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
 
@@ -166,14 +167,6 @@ const TeamSection = () => {
             <div key={index} className="player-card">
               <div className="player-image">
                 <img src={player.pfp} alt={player.name} className="player-pfp" />
-                <div className="player-overlay">
-                  {player.winRate && (
-                    <div className="win-rate">
-                      <span>{player.winRate}</span>
-                      <small>Win Rate</small>
-                    </div>
-                  )}
-                </div>
               </div>
               <div className="player-info">
                 <div className="player-header">
