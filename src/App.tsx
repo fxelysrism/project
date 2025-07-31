@@ -127,7 +127,7 @@ const TeamSection = () => {
     {
       name: "REBELS Krayzo",
       role: "Founded & CEO",
-      pfp: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
+      pfp: "https://ibb.co/wZdm78H5"
     },
     {
       name: "REBELS Storm",
