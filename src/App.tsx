@@ -277,18 +277,18 @@ const ContentSection = () => {
 
   const streams = [
     {
-      title: "Phoenix Dominating Ranked",
-      streamer: "REBELS Phoenix",
-      viewers: "12.4K",
-      game: "Fortnite",
+      title: "Launchdate",
+      streamer: "Coming Soon",
+      viewers: "?????",
+      game: "Twitter",
       thumbnail: "/image.png",
       live: true
     },
     {
-      title: "Storm's Valorant Masterclass",
-      streamer: "REBELS Storm",
-      viewers: "8.7K",
-      game: "Valorant",
+      title: "Coming Soon",
+      streamer: "Coming Soon",
+      viewers: "0.0k",
+      game: "discord.gg/rebelsesp",
       thumbnail: "/image.png",
       live: true
     }
@@ -296,21 +296,21 @@ const ContentSection = () => {
 
   const videos = [
     {
-      title: "How We Won the World Championship",
-      duration: "24:15",
-      views: "2.1M",
+      title: "Coming Soon",
+      duration: "00:00",
+      views: "0",
       thumbnail: "/image.png"
     },
     {
-      title: "Phoenix's Insane 30-Kill Game",
-      duration: "18:42",
-      views: "1.8M",
+      title: "Coming Soon",
+      duration: "00:00",
+      views: "0",
       thumbnail: "/image.png"
     },
     {
-      title: "Behind the Scenes: Training Camp",
-      duration: "32:08",
-      views: "956K",
+      title: "Coming Soon",
+      duration: "00:00",
+      views: "0",
       thumbnail: "/image.png"
     }
   ];
