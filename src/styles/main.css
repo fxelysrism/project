@@ -431,6 +431,17 @@ body {
   transition: transform 0.3s ease;
 }
 
+.player-pfp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover .player-pfp {
+  transform: scale(1.05);
+}
+
 .team-logo-display {
   width: 100%;
   height: 100%;

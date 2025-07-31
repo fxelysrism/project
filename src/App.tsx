@@ -165,14 +165,14 @@ const TeamSection = () => {
           {players.map((player, index) => (
             <div key={index} className="player-card">
               <div className="player-image">
-                <div className="team-logo-display">
-                  <img src="/image.png" alt="REBELS Logo" width={48} height={48} />
-                </div>
+                <img src={player.pfp} alt={player.name} className="player-pfp" />
                 <div className="player-overlay">
-                  <div className="win-rate">
-                    <span>{player.winRate}</span>
-                    <small>Win Rate</small>
-                  </div>
+                  {player.winRate && (
+                    <div className="win-rate">
+                      <span>{player.winRate}</span>
+                      <small>Win Rate</small>
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="player-info">
