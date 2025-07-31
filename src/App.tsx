@@ -111,7 +111,7 @@ const HeroSection = () => {
             </button>
             <button className="secondary-btn">
               <a href="#team" style={{ color: 'inherit', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                MEET THE TEAM
+                MEET THE OWNERS
               </a>
               <ArrowRight size={18} />
             </button>
@@ -125,14 +125,14 @@ const HeroSection = () => {
 const TeamSection = () => {
   const players = [
     {
-      name: "REBELS Krayzo",
-      role: "Founded & CEO",
+      name: "REBELS Flixz",
+      role: "Founder",
       pfp: "https://i.ibb.co/GfdS9Gwz/image.png"
     },
     {
-      name: "REBELS Storm",
-      role: "Assault Specialist",
-      pfp: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400"
+      name: "REBELS Xela",
+      role: "CEO",
+      pfp: "https://i.ibb.co/21Gt6v25/image.png"
     },
     {
       name: "REBELS Viper",
